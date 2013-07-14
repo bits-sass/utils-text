@@ -3,6 +3,16 @@
    ========================================================================== */
 
 /**
+ * Variables
+ *
+ * It is recommended to override these.
+ *
+ * 1. Namespace of bits.css's classes.
+ */
+
+$bits-ns: 'bits-' !default; /* 1 */
+
+/**
  * Text truncation
  *
  * Prevent text from wrapping onto multiple lines, and truncate with an
@@ -12,9 +22,18 @@
  *    occur.
  * 2. Fix for IE 8/9 if `word-wrap: break-word` is in effect on ancestor
  *    nodes.
+ *
+ * --------------
+ * Example usage:
+ *
+ * <p>                                           ->
+ *   Sed posuere consectetur est at lobortis.    ->    Sed posuere consectetu...
+ * </p>                                          ->
+ *
+ *
  */
 
-.u-textTruncate {
+.#{$bits-ns}u-textTruncate {
   max-width: 100%; /* 1 */
   overflow: hidden;
   text-overflow: ellipsis;
@@ -26,9 +45,16 @@
  * Word breaking
  *
  * Break strings when their length exceeds the width of their container.
+ *
+ * --------------
+ * Example usage:
+ *
+ * <a class="u-textBreak" href="...">         ->    https://github.com/bits-css/
+ *  https://github.com/bits-css/utils-text    ->    utils-text
+ * </a>                                       ->
  */
 
-.u-textBreak {
+.#{$bits-ns}u-textBreak {
   word-break: break-all;
   word-break: break-word;
   word-wrap: break-word;
@@ -40,14 +66,14 @@
  * Horizontal text alignment
  */
 
-.u-textCenter {
-  text-align: center;
-}
-
-.u-textLeft {
+.#{$bits-ns}u-textLeft {
   text-align: left;
 }
 
-.u-textRight {
+.#{$bits-ns}u-textCenter {
+  text-align: center;
+}
+
+.#{$bits-ns}u-textRight {
   text-align: right;
 }
