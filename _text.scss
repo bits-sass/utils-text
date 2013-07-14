@@ -7,10 +7,10 @@
  *
  * It is recommended to override these.
  *
- * 1. Namespace of bits.css's classes.
+ * 1. Utility namespace.
  */
 
-$bits-ns: 'bits-' !default; /* 1 */
+$bits-utils-ns: 'bits-' !default; /* 1 */
 
 /**
  * Text truncation
@@ -33,7 +33,7 @@ $bits-ns: 'bits-' !default; /* 1 */
  *
  */
 
-.#{$bits-ns}u-textTruncate {
+.#{$bits-utils-ns}u-textTruncate {
   max-width: 100%; /* 1 */
   overflow: hidden;
   text-overflow: ellipsis;
@@ -49,12 +49,12 @@ $bits-ns: 'bits-' !default; /* 1 */
  * --------------
  * Example usage:
  *
- * <a class="u-textBreak" href="...">         ->    https://github.com/bits-css/
- *  https://github.com/bits-css/utils-text    ->    utils-text
+ * <a class="u-textBreak" href="...">         ->    https://github.com/bits-scss/
+ *  https://github.com/bits-scss/utils-text    ->    utils-text
  * </a>                                       ->
  */
 
-.#{$bits-ns}u-textBreak {
+.#{$bits-utils-ns}u-textBreak {
   word-break: break-all;
   word-break: break-word;
   word-wrap: break-word;
@@ -66,14 +66,14 @@ $bits-ns: 'bits-' !default; /* 1 */
  * Horizontal text alignment
  */
 
-.#{$bits-ns}u-textLeft {
+.#{$bits-utils-ns}u-textLeft {
   text-align: left;
 }
 
-.#{$bits-ns}u-textCenter {
+.#{$bits-utils-ns}u-textCenter {
   text-align: center;
 }
 
-.#{$bits-ns}u-textRight {
+.#{$bits-utils-ns}u-textRight {
   text-align: right;
 }
