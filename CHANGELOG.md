@@ -1,5 +1,10 @@
 === HEAD
 
+=== 0.3.1 (July 20, 2013)
+
+* Rename organization's name to 'Bits.sass'
+* Fix `.u-textBreak` example
+
 === 0.3.0 (July 14, 2013)
 
 * Rename organization's name to 'Bits.scss'

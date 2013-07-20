@@ -1,14 +1,14 @@
-# Bits.scss utilities: text
+# Bits.sass utilities: text
 
-Utility classes for text-related CSS. See [other utilities](https://github.com/bits-scss/utils).
+Utility classes for text-related CSS. See [other utilities](https://github.com/bits-sass/utils).
 
-Read more about [Bits.scss toolkit](https://github.com/bits-scss/bits.scss).
+Read more about [Bits.sass toolkit](https://github.com/bits-sass/bits.sass).
 
 ## Installation
 
-* __Bower:__ `bower install --save bits-scss-utils-text`
-* __Download:__ [zip](https://github.com/bits-scss/utils-text/zipball/master), [tar.gz](https://github.com/bits-scss/utils-text/tarball/master)
-* __Git:__ `git clone https://github.com/bits-scss/utils-text.git`
+* __Bower:__ `bower install --save bits-sass-utils-text`
+* __Download:__ [zip](https://github.com/bits-sass/utils-text/zipball/master), [tar.gz](https://github.com/bits-sass/utils-text/tarball/master)
+* __Git:__ `git clone https://github.com/bits-sass/utils-text.git`
 
 ## Available SASS variables
 
