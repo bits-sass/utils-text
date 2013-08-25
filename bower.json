@@ -1,6 +1,6 @@
 {
   "name": "bits-sass-utils-text",
-  "version": "0.3.1",
+  "version": "0.4.0",
   "author": "Lukáš Mladý",
   "main": "_text.scss"
 }

@@ -26,11 +26,9 @@ $bits-utils-ns: 'bits-' !default; /* 1 */
  * --------------
  * Example usage:
  *
- * <p>                                           ->
+ * <p class="u-textTruncate">                    ->
  *   Sed posuere consectetur est at lobortis.    ->    Sed posuere consectetu...
  * </p>                                          ->
- *
- *
  */
 
 .#{$bits-utils-ns}u-textTruncate {
@@ -67,13 +65,13 @@ $bits-utils-ns: 'bits-' !default; /* 1 */
  */
 
 .#{$bits-utils-ns}u-textLeft {
-  text-align: left;
+  text-align: left !important;
 }
 
 .#{$bits-utils-ns}u-textCenter {
-  text-align: center;
+  text-align: center !important;
 }
 
 .#{$bits-utils-ns}u-textRight {
-  text-align: right;
+  text-align: right !important;
 }
