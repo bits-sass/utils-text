@@ -57,6 +57,16 @@ $bits-utils-ns: 'bits-' !default; /* 1 */
   word-wrap: break-word !important;
 }
 
+/**
+ * Text on one line
+ *
+ * Force the text to be on one line. Useful in table cells.
+ */
+
+.#{$bits-utils-ns}u-textOneLine {
+  white-space: nowrap;
+}
+
 /* -------------------------------------------------------------------------- */
 
 /**
