@@ -16,11 +16,17 @@ Read more about [Bits.sass toolkit](https://github.com/bits-sass/bits.sass).
 
 ## Available utility classes
 
-* `u-textTruncate` - prevents text from wrapping onto multiple lines, and truncates with an ellipsis
-* `u-textBreak` - breaks strings when their length exceeds the width of their container
-* `u-textLeft` - simple `text-align: left;`
-* `u-textCenter` - simple `text-align: center;`
-* `u-textRight` - simple `text-align: right;`
+* `u-textTruncate` - prevent text from wrapping onto multiple lines, and truncates with an ellipsis
+* `u-textBreak` - break strings when their length exceeds the width of their container
+* `u-textOneLine` - force the text to be on one line
+* `u-textLeft` - align text to left
+* `u-textCenter` - center the text
+* `u-textRight` - align text to right
+* `u-textInheritColor` - inherit the ancestor's text color
+* `u-textInheritColorAll` - inherit the ancestor's text color for all states
+* `u-textUpperCase` - transform text to upper case
+* `u-textLowerCase` - transform text to lower case
+* `u-textLineHeightMatch` - make line height of text match its font size
 
 ## Requirements
 
