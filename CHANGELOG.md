@@ -1,6 +1,7 @@
 === HEAD
 
 * Add `!important` to all rules
+* Remove `word-break: break-word;` from `u-textBreak`
 === 0.4.0 (August 25, 2013)
 
 * Add !important to text align utils
