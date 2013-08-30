@@ -102,7 +102,7 @@ $bits-utils-ns: 'bits-' !default; /* 1 */
 /**
  * Horizontal text alignment
  *
- * Align text to right.
+ * Center the text.
  */
 
 .#{$bits-utils-ns}u-textCenter {
@@ -112,7 +112,7 @@ $bits-utils-ns: 'bits-' !default; /* 1 */
 /**
  * Horizontal text alignment
  *
- * Center the text.
+ * Align text to right.
  */
 
 .#{$bits-utils-ns}u-textRight {
@@ -151,7 +151,7 @@ $bits-utils-ns: 'bits-' !default; /* 1 */
 /**
  * Uppercase text
  *
- * Transform the text to upper case.
+ * Transform text to upper case.
  */
 
 .#{$bits-utils-ns}u-textUpperCase {
@@ -161,7 +161,7 @@ $bits-utils-ns: 'bits-' !default; /* 1 */
 /**
  * Lowercase text
  *
- * Transform the text to lower case.
+ * Transform text to lower case.
  */
 
 .#{$bits-utils-ns}u-textLowerCase {
@@ -173,7 +173,7 @@ $bits-utils-ns: 'bits-' !default; /* 1 */
 /**
  * Match line height
  *
- * Make the line height of the text match its font size.
+ * Make line height of text match its font size.
  */
 
 .#{$bits-utils-ns}u-textLineHeightMatch {
