@@ -12,6 +12,8 @@
 
 $bits-utils-ns: 'bits-' !default; /* 1 */
 
+/* -------------------------------------------------------------------------- */
+
 /**
  * Text truncation
  *
@@ -25,10 +27,17 @@ $bits-utils-ns: 'bits-' !default; /* 1 */
  *
  * --------------
  * Example usage:
+ * --------------
  *
- * <p class="u-textTruncate">                    ->
- *   Sed posuere consectetur est at lobortis.    ->    Sed posuere consectetu...
- * </p>                                          ->
+ * <p class="u-textTruncate">
+ *   Sed posuere consectetur est at lobortis.
+ * </p>
+ *
+ * <= output ==
+ *
+ * Sed posuere consec...
+ *
+ * == end ====>
  */
 
 .#{$bits-utils-ns}u-textTruncate {
@@ -46,10 +55,20 @@ $bits-utils-ns: 'bits-' !default; /* 1 */
  *
  * --------------
  * Example usage:
+ * --------------
  *
- * <a class="u-textBreak" href="...">         ->    https://github.com/bits-sass/
- *  https://github.com/bits-sass/utils-text   ->    utils-text
- * </a>                                       ->
+ * <p class="u-textBreak">
+ *   <a href="...">
+ *    https://github.com/bits-sass/utils-text
+ *   </a>
+ * </p>
+ *    ccexo
+ * <= output ==
+ *
+ * https://github.com/bits-sass/u
+ * tils-text
+ *
+ * == end ====>
  */
 
 .#{$bits-utils-ns}u-textBreak {
@@ -71,15 +90,29 @@ $bits-utils-ns: 'bits-' !default; /* 1 */
 
 /**
  * Horizontal text alignment
+ *
+ * Align text to left.
  */
 
 .#{$bits-utils-ns}u-textLeft {
   text-align: left !important;
 }
 
+/**
+ * Horizontal text alignment
+ *
+ * Align text to right.
+ */
+
 .#{$bits-utils-ns}u-textCenter {
   text-align: center !important;
 }
+
+/**
+ * Horizontal text alignment
+ *
+ * Center the text.
+ */
 
 .#{$bits-utils-ns}u-textRight {
   text-align: right !important;

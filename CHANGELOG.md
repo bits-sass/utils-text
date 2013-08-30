@@ -6,6 +6,7 @@
 * Add `line-height` util that matches the line height to font size
 * Add `u-textOneLine` util (via `white-space: nowrap;`)
 * Remove `word-break: break-word;` from `u-textBreak`
+
 === 0.4.0 (August 25, 2013)
 
 * Add !important to text align utils
