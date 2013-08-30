@@ -41,8 +41,9 @@ $bits-utils-ns: 'bits-' !default; /* 1 */
  */
 
 .#{$bits-utils-ns}u-textTruncate {
-  max-width: 100%; /* 1 */
   overflow: hidden !important;
+  max-width: 100%; /* 1 */
+
   text-overflow: ellipsis !important;
   white-space: nowrap !important;
   word-wrap: normal !important; /* 2 */
