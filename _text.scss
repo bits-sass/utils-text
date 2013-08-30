@@ -123,4 +123,15 @@ $bits-utils-ns: 'bits-' !default; /* 1 */
 .#{$bits-utils-ns}u-textLowerCase {
   text-transform: lowercase !important;
 }
+
+/* -------------------------------------------------------------------------- */
+
+/**
+ * Match line height
+ *
+ * Make the line height of the text match its font size.
+ */
+
+.#{$bits-utils-ns}u-textLineHeightMatch {
+  line-height: 1 !important;
 }
