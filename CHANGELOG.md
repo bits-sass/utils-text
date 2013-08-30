@@ -2,6 +2,7 @@
 
 * Add `!important` to all rules
 * Add `color` inheritance utils
+* Add `text-transform` upper case and lower case utils
 * Remove `word-break: break-word;` from `u-textBreak`
 === 0.4.0 (August 25, 2013)
 

@@ -102,4 +102,25 @@ $bits-utils-ns: 'bits-' !default; /* 1 */
   }
 }
 
+/* -------------------------------------------------------------------------- */
+
+/**
+ * Uppercase text
+ *
+ * Transform the text to upper case.
+ */
+
+.#{$bits-utils-ns}u-textUpperCase {
+  text-transform: uppercase !important;
+}
+
+/**
+ * Lowercase text
+ *
+ * Transform the text to lower case.
+ */
+
+.#{$bits-utils-ns}u-textLowerCase {
+  text-transform: lowercase !important;
+}
 }
