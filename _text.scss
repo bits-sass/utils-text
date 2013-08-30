@@ -33,10 +33,10 @@ $bits-utils-ns: 'bits-' !default; /* 1 */
 
 .#{$bits-utils-ns}u-textTruncate {
   max-width: 100%; /* 1 */
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  word-wrap: normal; /* 2 */
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  white-space: nowrap !important;
+  word-wrap: normal !important; /* 2 */
 }
 
 /**
@@ -53,9 +53,9 @@ $bits-utils-ns: 'bits-' !default; /* 1 */
  */
 
 .#{$bits-utils-ns}u-textBreak {
-  word-break: break-all;
   word-break: break-word;
-  word-wrap: break-word;
+  word-break: break-all !important;
+  word-wrap: break-word !important;
 }
 
 /* -------------------------------------------------------------------------- */

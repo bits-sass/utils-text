@@ -1,5 +1,6 @@
 === HEAD
 
+* Add `!important` to all rules
 === 0.4.0 (August 25, 2013)
 
 * Add !important to text align utils
