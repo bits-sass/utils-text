@@ -1,6 +1,7 @@
 === HEAD
 
 * Add `!important` to all rules
+* Add `color` inheritance utils
 * Remove `word-break: break-word;` from `u-textBreak`
 === 0.4.0 (August 25, 2013)
 

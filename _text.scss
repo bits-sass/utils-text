@@ -74,3 +74,32 @@ $bits-utils-ns: 'bits-' !default; /* 1 */
 .#{$bits-utils-ns}u-textRight {
   text-align: right !important;
 }
+
+/* -------------------------------------------------------------------------- */
+
+/**
+ * Color inheritance
+ *
+ * Inherit the ancestor's text color.
+ */
+
+.#{$bits-utils-ns}u-textInheritColor {
+  color: inherit !important;
+}
+
+/**
+ * Color inheritance
+ *
+ * Inherit the ancestor's text color for all states.
+ */
+
+.#{$bits-utils-ns}u-textInheritAllColor {
+  &,
+  &:hover,
+  &:focus,
+  &:active {
+    color: inherit !important;
+  }
+}
+
+}
