@@ -2,21 +2,33 @@
    Text utilities
    ========================================================================== */
 
+/* Variables
+   ========================================================================== */
+
 /**
- * Variables
- *
- * It is recommended to override these.
- *
- * 1. Utility namespace.
+ * Bits.sass utilities namespace
  */
 
-$bits-utils-ns: 'bits-' !default; /* 1 */
+$bits-utils-ns: 'bits-' !default;
 
-/* -------------------------------------------------------------------------- */
+/* White space manipulation
+   ========================================================================== */
 
 /**
  * Text truncation
  *
+ * Example HTML:
+ *
+ * <p class="u-textTruncate">
+ *   Sed posuere consectetur est at lobortis.
+ * </p>
+ *
+ * Output:
+ *
+ * Sed posuere consec...
+ */
+
+/**
  * Prevent text from wrapping onto multiple lines, and truncate with an
  * ellipsis.
  *
@@ -24,20 +36,6 @@ $bits-utils-ns: 'bits-' !default; /* 1 */
  *    occur.
  * 2. Fix for IE 8/9 if `word-wrap: break-word` is in effect on ancestor
  *    nodes.
- *
- * --------------
- * Example usage:
- * --------------
- *
- * <p class="u-textTruncate">
- *   Sed posuere consectetur est at lobortis.
- * </p>
- *
- * <= output ==
- *
- * Sed posuere consec...
- *
- * == end ====>
  */
 
 .#{$bits-utils-ns}u-textTruncate {
@@ -54,22 +52,18 @@ $bits-utils-ns: 'bits-' !default; /* 1 */
  *
  * Break strings when their length exceeds the width of their container.
  *
- * --------------
- * Example usage:
- * --------------
+ * Example HTML:
  *
  * <p class="u-textBreak">
  *   <a href="...">
  *    https://github.com/bits-sass/utils-text
  *   </a>
  * </p>
- *    ccexo
- * <= output ==
+ *
+ * Output
  *
  * https://github.com/bits-sass/u
  * tils-text
- *
- * == end ====>
  */
 
 .#{$bits-utils-ns}u-textBreak {
@@ -87,7 +81,8 @@ $bits-utils-ns: 'bits-' !default; /* 1 */
   white-space: nowrap;
 }
 
-/* -------------------------------------------------------------------------- */
+/* Horizontal alignment
+   ========================================================================== */
 
 /**
  * Horizontal text alignment
@@ -119,11 +114,10 @@ $bits-utils-ns: 'bits-' !default; /* 1 */
   text-align: right !important;
 }
 
-/* -------------------------------------------------------------------------- */
+/* Color inheritance
+   ========================================================================== */
 
 /**
- * Color inheritance
- *
  * Inherit the ancestor's text color.
  */
 
@@ -132,8 +126,6 @@ $bits-utils-ns: 'bits-' !default; /* 1 */
 }
 
 /**
- * Color inheritance
- *
  * Inherit the ancestor's text color for all states.
  */
 
@@ -146,7 +138,8 @@ $bits-utils-ns: 'bits-' !default; /* 1 */
   }
 }
 
-/* -------------------------------------------------------------------------- */
+/* Text transformation
+   ========================================================================== */
 
 /**
  * Uppercase text
@@ -168,7 +161,8 @@ $bits-utils-ns: 'bits-' !default; /* 1 */
   text-transform: lowercase !important;
 }
 
-/* -------------------------------------------------------------------------- */
+/* Line height manipulation
+   ========================================================================== */
 
 /**
  * Match line height

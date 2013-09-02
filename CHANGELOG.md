@@ -7,6 +7,7 @@
 * Add `u-textOneLine` util (via `white-space: nowrap;`)
 * Remove `word-break: break-word;` from `u-textBreak`
 * Reorder properties
+* Use new style for comments
 
 === 0.4.0 (August 25, 2013)
 
