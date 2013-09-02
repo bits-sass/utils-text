@@ -1,5 +1,7 @@
 === HEAD
 
+=== 0.5.0 (September 2, 2013)
+
 * Add `!important` to all rules
 * Add `color` inheritance utils
 * Add `text-transform` upper case and lower case utils
